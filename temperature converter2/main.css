@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 96%);
+}
+h1{
+    color: hsl(223, 100%, 67%);
+}
+form{
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsl(0, 0%, 0.23%);
+}
+#textbox{
+    width: 50%;
+}

@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family: 'Mono Space',sans-serif;
+    background: linear-gradient(to right, #5313889a,#23293a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    box-sizing: border-box;    
+}
+.container{
+    background-color: #f5f6f7;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    text-align: center;
+    color: #333;
+    box-sizing: border-box;
+}
+h1{
+    font-weight: bold;
+    color:white;
+    background: linear-gradient(to right, #6a11cb, #2574fc);
+    -webkit-background-clip:text;
+    color: transparent;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+textarea{
+    resize: none;
+    outline: none;
+    width: 90%;
+    border-radius: 10px;
+    height: 170px;
+    background-color: #e9ecef;
+    font-size: 20px;
+    color: #333;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    box-sizing: border-box;
+}
+.start-box{
+    overflow: hidden;
+    background-color: #fff;
+    padding: 13px;
+    border-radius: 10px;
+    border-radius: 10px;
+    width: 24%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    height: 90px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.start-box p{
+    margin: 0;
+    font-size: 17px;
+    color: #333;
+}
+.start-box p:first-child{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+footer{
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+    color: #999;
+}
+.Facebook{
+    border: 2px solid red;
+}
+.gaduud{
+    border: 2px solid red;
+
+}

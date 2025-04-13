@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="myImg" src="C:\Users\xaafada\Desktop\JAVASCRIBT\PROJECTS\course\bro code\biite.jpg" width="300px" alt="img"><br>
+    
+    <button id="myBtn">hide</button>
+    <style>
+        #myBtn{
+            font-size: 2em;
+        }
+    </style>
+    
+
+    <script>
+        const myButton = document.getElementById('myBtn');
+        const myImg =  document.getElementById('myImg');
+        myButton.addEventListener('click', () =>{
+            if(myImg.style.visibility === 'hidden'){
+                myImg.style.visibility = 'visible'
+                myButton.textContent = 'hide'
+            }else{
+                myImg.style.visibility = 'hidden';
+                myButton.textContent = 'show'
+            }
+        })
+    </script>
+</body>
+</html>

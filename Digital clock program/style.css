@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    background-attachment: fixed; 
+}
+.clock-container{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 6.5em;
+    height: 100vh;
+    font-family: 'Space Mono',sans-serif;
+    background: linear-gradient(to left, #939393 30%,#000 90%);
+    background-size: cover;
+}
+.clock{
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    background-color: hsla(0, 0%, 100%, 0.03);
+    width: 100%;
+}

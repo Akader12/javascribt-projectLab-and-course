@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono',sans-serif;
+}
+body{
+    background: linear-gradient(to left, #a3aa3b ,#000);
+    background-color: #0ba84786;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+#time,#today{
+    color: #fff;
+    font-size: 5em;
+}
+#date{
+    color: #fff;
+    font-size: 3rem;
+}

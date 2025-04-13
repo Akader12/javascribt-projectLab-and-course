@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9679ff;
+}
+.container{
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+#touch-area{
+    background-color: #fff;
+    height: 28em;
+    width: 28em;
+    border-radius: 0.6em;
+}
+#output{
+    font-family: 'Arial Rounded MT',sans-serif;
+    font-size: 1.2em;
+    background-color: #fff;
+    text-align: center;
+    padding: 0.8em 0;
+    border-radius: 0.3em;
+    margin-top: 13px;
+}

@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(#e92e3d,#ff6e6a) 0 100% no-repeat;
+    background-size: 100% 50%;
+}
+.container{
+    width: 400px;
+    padding: 50px;
+    border: 1px solid black;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: 0 15px 35px rgba(50, 50, 50, 0.15);
+    border-radius: 8px;
+}
